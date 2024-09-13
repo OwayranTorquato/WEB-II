@@ -49,6 +49,6 @@ Aqui está uma visão geral da estrutura de diretórios do projeto:
   - pages/
     - Home.js: Página principal onde os cards são exibidos.
   - services/
-    - githubAPI.js: Funções para interagir com a API do GitHub.
+    - api.js: Funções para interagir com a API do GitHub.
   - styles/
     - GlobalStyles.js: Estilos globais da aplicação.
