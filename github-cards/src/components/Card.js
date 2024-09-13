@@ -4,7 +4,7 @@ import { CardContainer, ProfileImage, UserName, UserBio, GitHubLink } from './Ca
 
 const Card = ({ name, profilePicture, technologies, githubLink }) => {
   return (
-    <CardContainer>
+    <CardContainer> 
       <ProfileImage src={profilePicture} alt={`${name}'s profile`} />
       <UserName>{name}</UserName>
       <UserBio>{technologies}</UserBio>
